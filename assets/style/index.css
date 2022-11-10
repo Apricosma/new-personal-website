@@ -39,6 +39,7 @@ ul {
 body {
     background: var(--app-dark-bg) url('../media/web-bg-3.jpeg');
     background-size: cover;
+    background-position: fixed;
     background-repeat: no-repeat;
 }
 
@@ -55,7 +56,6 @@ body {
 }
 
 header {
-    /* background-color: #201c1f; */
     border-bottom: 1px solid #96446d6c;
     font-size: 24px;
     font-weight: 400;
@@ -67,11 +67,39 @@ header {
 /* Hero-card         */
 /* - - - - - - - - - */
 
-.hero-card {
-    margin-top: 75px;
+.card {
+    margin-top: 56px;
+    margin-bottom: 300px;
     width: 75%;
-    height: 75vh;
+    min-height: 750px;
     background-color: var(--app-element);
     border-radius: 25px;
     padding: 50px;
+}
+
+.hero .card {
+    text-align: center;
+    color: var(--app-text-color);
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.hero img {
+    width: 250px;
+    opacity: 0.6;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    transform: rotate(225deg);
+}
+
+.fa-chevron-down {
+    position: absolute;
+    bottom: 50px;
+    font-size: 40px;
 }
