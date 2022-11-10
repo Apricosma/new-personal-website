@@ -136,12 +136,20 @@ aside {
     box-shadow: 3px 3px 25px #1b192b;
 }
 
+@keyframes slide-up {
+    0%{}
+    70%{ transform: translateY(-885px)}
+    100%{ transform: translateY(-850px)}
+}
+
 
 .hero .card {
     text-align: center;
     color: var(--app-text-color);
     position: relative;
     padding: 280px;
+    bottom: -850px;
+    animation: slide-up 0.5s ease-in forwards;
 }
 
 .hero h2 {
@@ -181,7 +189,7 @@ aside {
     padding: 100px 300px;
 }
 
-#about-me h2 {
+#about-me h2, #contact h2 {
     font-size: 32px;
     margin-bottom: 25px;
 }
