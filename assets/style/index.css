@@ -1,0 +1,52 @@
+@import "./reset.css";
+
+:root {
+    --app-dark-bg: #232323;
+    --app-element: #333333;
+    --app-red: #ff3c57;
+    --app-green: #33ab4e;
+    --app-purple: #833cff;
+    --app-orange: #ff833c;
+    --app-blue: #3c57ff;
+    --app-blue-hover: #364ee6;
+    --app-text-color: #f2f4f6;
+}
+    
+body {
+    background-color: var(--app-dark-bg);
+}
+    
+.container {
+    width: min(100% - 30px, 1280px);
+    margin-inline: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* - - - - - - - - - */
+/* Header            */
+/* - - - - - - - - - */
+
+.logo {
+    width: 48px;
+}
+
+.navlist {
+    justify-content: space-evenly;
+}
+
+header {
+    border-bottom: 1px solid #2c2c2c;
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--app-text-color);
+    padding: 10px;
+}
