@@ -3,15 +3,13 @@
 :root {
     --app-dark-bg: #27244a;
     --app-element: #cfabc4;
-    --app-red: #ff3c57;
-    --app-green: #33ab4e;
-    --app-purple: #833cff;
-    --app-orange: #ff833c;
-    --app-blue: #3c57ff;
-    --app-blue-hover: #364ee6;
     --app-text-color: #f2f4f6;
+    --app-text-color2: #dd4c56;
 }
 
+html {
+    scroll-behavior: smooth;   
+}
     
 body {
     background-color: var(--app-dark-bg);
@@ -67,24 +65,30 @@ header {
 /* Hero-card         */
 /* - - - - - - - - - */
 
+
+
 .card {
     margin-top: 56px;
     margin-bottom: 300px;
     width: 75%;
     min-height: 750px;
-    background-color: var(--app-element);
+    background-color: rgba(205, 171, 216, 0.253);
+    backdrop-filter: blur(5px);
     border-radius: 25px;
     padding: 50px;
+    box-shadow: 3px 3px 25px #1b192b;
 }
+
 
 .hero .card {
     text-align: center;
     color: var(--app-text-color);
     position: relative;
+    padding: 280px;
 }
 
 .hero h2 {
-    font-size: 48px;
+    font-size: 58px;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -100,6 +104,12 @@ header {
 
 .fa-chevron-down {
     position: absolute;
-    bottom: 50px;
+    bottom: 35px;
     font-size: 40px;
+    text-decoration: none;
+    color: var(--app-text-color);
+}
+
+.fa-chevron-down:hover {
+    color:var(--app-text-color2)
 }
