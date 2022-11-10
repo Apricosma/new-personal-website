@@ -158,6 +158,10 @@ aside {
     letter-spacing: 2px;
 }
 
+.hero p {
+    font-size: 20px;
+}
+
 .hero img {
     width: 250px;
     opacity: 0.7;
