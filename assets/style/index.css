@@ -133,7 +133,7 @@ aside {
     backdrop-filter: blur(5px);
     border-radius: 25px;
     padding: 50px;
-    box-shadow: 3px 3px 25px #1b192b;
+    box-shadow: 3px 3px 25px #1c1a29bd;
 }
 
 @keyframes slide-up {
@@ -171,9 +171,16 @@ aside {
     transform: rotate(225deg);
 }
 
+.hero .fa-brands {
+    font-size: 72px;
+    padding: 25px;
+}
+
 .fa-chevron-down {
     position: absolute;
-    bottom: 35px;
+    bottom: 45px;
+    right: 48.9%;
+
     font-size: 40px;
     text-decoration: none;
     color: var(--app-text-color);
@@ -209,6 +216,8 @@ aside {
 
 #contact p {
     text-align: center;
+    margin: 150px 0;
+    font-size: 28px;
 }
 
 #contact .card {
@@ -261,6 +270,10 @@ footer .fa-brands {
     font-size: 30px;
 }
 
+/* - -  - - - - - - - - */
+/*  Queries             */
+/* - - -  - - - - - - - */
+
 @media (max-width: 936px) {
     footer {
         margin-top: 0px;
@@ -278,7 +291,7 @@ footer .fa-brands {
     }
 }
 
-@media (max-width: 952px) {
+@media (max-width: 990px) {
 
     .hero .card {
         padding: 100px;
@@ -298,7 +311,7 @@ footer .fa-brands {
     }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 724px) {
     .hero .card {
         padding: 30px;
     }
