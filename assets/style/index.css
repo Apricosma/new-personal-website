@@ -1,8 +1,8 @@
 @import "./reset.css";
 
 :root {
-    --app-dark-bg: #232323;
-    --app-element: #333333;
+    --app-dark-bg: #27244a;
+    --app-element: #cfabc4;
     --app-red: #ff3c57;
     --app-green: #33ab4e;
     --app-purple: #833cff;
@@ -11,6 +11,7 @@
     --app-blue-hover: #364ee6;
     --app-text-color: #f2f4f6;
 }
+
     
 body {
     background-color: var(--app-dark-bg);
@@ -36,8 +37,9 @@ ul {
 /* - - - - - - - - - */
 
 body {
-    background: #2c2c2c url('../media/web-bg.jpeg') no-repeat scroll center;
-    background-size: 205vh;
+    background: var(--app-dark-bg) url('../media/web-bg-3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* - - - - - - - - - */
@@ -53,9 +55,10 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #2c2c2c;
+    /* background-color: #201c1f; */
+    border-bottom: 1px solid #96446d6c;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--app-text-color);
     padding: 10px;
 }
@@ -68,5 +71,7 @@ header {
     margin-top: 75px;
     width: 75%;
     height: 75vh;
-    background-color: #232323;
+    background-color: var(--app-element);
+    border-radius: 25px;
+    padding: 50px;
 }
