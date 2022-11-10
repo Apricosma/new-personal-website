@@ -32,6 +32,15 @@ ul {
 }
 
 /* - - - - - - - - - */
+/* Background        */
+/* - - - - - - - - - */
+
+body {
+    background: #2c2c2c url('../media/web-bg.jpeg') no-repeat scroll center;
+    background-size: 205vh;
+}
+
+/* - - - - - - - - - */
 /* Header            */
 /* - - - - - - - - - */
 
@@ -49,4 +58,15 @@ header {
     font-weight: 300;
     color: var(--app-text-color);
     padding: 10px;
+}
+
+/* - - - - - - - - - */
+/* Hero-card         */
+/* - - - - - - - - - */
+
+.hero-card {
+    margin-top: 75px;
+    width: 75%;
+    height: 75vh;
+    background-color: #232323;
 }
